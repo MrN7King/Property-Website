@@ -1,0 +1,399 @@
+<!doctype html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body>
+<!--Hero section start-->
+  <div class="container w-full sm:min-w-screen">
+    <div
+      class="nav z-10 p-3 flex items-center justify-between bg-[#009951] px-12 h-16 text-white lg:gap-8 fixed top-0 left-0 w-full lg:justify-between ">
+
+      <div>
+        <a href="#feature" class="text-[14px] lg:text-2xl font-bold hover:text-emerald-950 whitespace-nowrap">Why Choose This Land?</a>
+      </div>
+
+      <div
+        class="dropdown-menu hidden z-10 absolute top-16 left-0 max-lg:bg-[#0099529f] w-full flex flex-col items-center gap-6 py-2 text-[14px] font-bold  lg:flex lg:static lg:flex-row lg:justify-end xl:text-xl ">
+        <ul class="flex flex-col items-center gap-6 lg:flex-row lg:justify-between lg:gap-8">
+          <li class="hover:text-emerald-950"><a href="#gallery">Gallery</a></li>
+          <li class="hover:text-emerald-950"><a href="#moreabout">About the Land</a></li>
+          <li class="hover:text-emerald-950"><a href="#location">Location</a></li>
+          <li id="contactUsBtn" class="hover:text-emerald-950"><a href="tel:+94776566868">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="toggle-button lg:hidden lg:top">
+        <i class=" fa-solid fa-bars fa-lg hover:text-emerald-950 lg:hidden"></i>
+      </div>
+    </div>
+
+    <div class="bg-fixed -z-10 h-screen bg-cover bg-center sm:min-w-screen brightness-70 "
+      style="background-image: url('images/heroImage.jpg');">
+    </div>
+
+
+    <div
+      class=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-left md:left-1/2">
+      <div class="backdrop-blur-[10px] p-3 rounded-b-md md:p-5">
+        <h1 class="text-[18px] font-bold whitespace-nowrap min-[425px]:text-xl md:text-4xl lg:text-6xl">A Green Land in
+          Kurunegala!</h1>
+        <h1 class="text-[18px] font-bold whitespace-nowrap min-[425px]:text-xl md:text-4xl lg:text-6xl">Perfect Escape
+          From Busy City</h1>
+        <p class="text-[11px] mt-4 whitespace-nowrap min-[425px]:text-[14px] md:text-[22px] lg:text-[32px]">Peaceful
+          Living | Prime Location | Endless Possibilities</p>
+      </div>
+    </div>
+
+  </div>
+<!--Hero section end--> 
+
+<!--feature cards start-->
+ <div id="feature">
+  <!--Card Section 1 Starts-->
+  <h2 class="m-5 text-center text-[18px] font-bold md:text-2xl">Key Features</h2>
+  <div class="flex min-h-screen items-center justify-center">
+    <div class="grid grid-cols-1 place-items-center gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4">
+            <i class="fa-solid fa-location-dot fa-xl"></i>           
+          </div>
+          <h5 class="mt-1 text-xl font-bold">Prime Location</h5>
+          <p class="mt-6 text-base">Just 2 minutes from Puttalam Road, 5 mins from Kurunegala town</p>
+          <p class="mt-6 text-base">පුත්තලම පාරේ සිට මිනිත්තු 2 යි, කුරුණෑගල නගරයෙ සිට මිනිත්තු 5 යි.</p>
+          <p class="mt-6 text-base">புத்தளம் வீதியிலிருந்து 2 நிமிடங்கள், குருநாகல் நகரத்திலிருந்து 5 நிமிடங்கள்.</p>
+
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4">
+            <i class="fa-solid fa-universal-access fa-xl"></i>
+          </div>
+          <h5 class="text-xl font-bold">Convinient Access</h5>
+          <p class="mt-6 text-base">Conveniently located near bus routes, highways, and railway stations.</p>
+          <p class="mt-6 text-base">බස් මාර්ග, මහාමාර්ග, දුම්රිය මාර්ග වලට ආසන්නව</p>
+          <p class="mt-6 text-base">பேருந்து வழித்தடங்கள், நெடுஞ்சாலைகள், ரயில்வே அருகில்</p>
+
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4">
+            <i class="fa-solid fa-mountain-sun fa-xl"></i>
+          </div>
+          <h5 class="text-xl font-bold">Stunning Views</h5>
+          <p class="mt-6 text-base">Scenic rock ranges: Athugala, Ibbagala, Aandagala, Yaddessagala</p>
+          <p class="mt-6 text-base">දර්ශනීය පාෂාණ පරාසයන්: ඇතුගල, ඉබ්බාගල, ආඳගල, යද්දස්සගල</p>
+          <p class="mt-6 text-base">அழகிய மலைகள்: அத்துகல, இப்பக்கல, ஆண்டகல, யதேசகல</p>
+
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4">
+            <i class="fa-solid fa-city fa-xl"></i>
+          </div>
+          <h5 class="text-xl font-bold">Urban Essentials Nearby</h5>
+           <p class="mt-6 text-base">Only 5 minutes to banks, hospitals, schools, supermarkets, and parks.</p>
+           <p class="mt-6 text-base">බැංකු, රෝහල්, පාසල්, සුපිරි වෙළඳසැල්, විනාඩි 5 ක දුරින්</p>
+           <p class="mt-6 text-base">வங்கிகள், மருத்துவமனைகள், பள்ளிகள், அங்காடிகள் -<br> 5 நிமிடங்கள்.</p>
+
+          </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4 overflow-hidden rounded-xl">
+            <i class="fa-solid fa-handshake-angle fa-xl"></i>
+          </div>
+          <h5 class="text-xl font-bold">Recreational Access</h5>
+          <p class="mt-6 text-base">Perfect mix of residential comfort & commercial potential</p>
+          <p class="mt-6 text-base">මෙම ස්ථානය පහසුකම් සහ වාණිජ අවස්ථාවන්ගේ ඉතා හොඳ සංයෝජනයකි.</p>
+          <p class="mt-6 text-base">குடியிருப்பு வசதி மற்றும் வணிக திறனின் சரியான கலவை</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="m-5 flex h-[500px] w-[280px] min-w-[152px] flex-col items-center justify-between rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+        <div class="flex flex-col items-center text-center">
+          <div class="mb-4 overflow-hidden rounded-xl">
+            <i class="fa-solid fa-sack-dollar fa-xl"></i>
+
+          </div>
+          <h5 class="text-xl font-bold">Ideal Investment</h5>
+          <p class="mt-6 text-base">This land offers both residential comfort and commercial potential.</p>
+          <p class="mt-6 text-base">නේවාසික සුවපහසුව සහ වාණිජමය පරිපූර්ණ මිශ්‍රණයක්</p>
+          <p class="mt-6 text-base">இந்த நிலம் குடியிருப்பு வசதி மற்றும் வணிக திறன் இரண்டையும் வழங்குகிறது.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--feature cards end-->
+<!--Gallery section start-->
+  <div id="gallery" class="container bg-[#009951] sm:min-w-screen">
+
+    <h1 class="text-white text-center text-[18px] font-bold p-5 md:text-2xl">Gallery</h1>
+    
+  <div class="wrapper  flex items-center justify-center p-2">
+    <i id="left" class="fa-solid fa-angle-right fa-flip-horizontal text-white  bg-emerald-900 rounded-xs p-2"></i>
+    
+
+    <div class="carousel cursor-pointer pb-6 flex flex-row gap-2 md:w-3/4 lg:w-2xl">
+      <img class="rounded-md" src="images/slide1.jpg">
+      <img class="rounded-md" src="images/slide2.jpg">
+      <img class="rounded-md" src="images/slide3.jpg">
+      <img class="rounded-md" src="images/slide4.jpg">
+      <img class="rounded-md" src="images/slide5.jpg">
+      <img class="rounded-md" src="images/slide6.jpg">
+      <img class="rounded-md" src="images/slide7.jpg">
+      <img class="rounded-md" src="images/slide8.jpg">
+      <img class="rounded-md" src="images/slide9.jpg">
+      <img class="rounded-md" src="images/slide10.jpg">
+      
+    </div>
+
+    <i id="right" class="fa-solid fa-angle-right text-white bg-emerald-900 rounded-xs p-2"></i>
+
+  </div>
+</div>
+<!--Gallery section end-->
+
+<div id="moreabout">
+ <!-- More About LAND Starts -->
+ <h2 class="m-5 text-center text-[18px] font-bold md:text-2xl">Key Features</h2>
+
+ <!-- Card 1 -->
+ <div class="flex items-center justify-center">
+   <div class="m-5 flex max-w-[80%] flex-col items-center justify-between overflow-hidden rounded-xl bg-[#E8FAEA]  p-5 shadow-lg">
+     <div class="flex flex-col items-center text-center">
+       <h5 class="mt-1 text-xl font-bold">Location & Accessibility</h5>
+       <br />
+       <p class="m-1 text-base sm:text-lg md:text-xl">
+         Situated in Yanthampalawa, within Kurunegala town limits - a mix of urban convenience and natural beauty.<br />
+         2-minute walk to Puttalam Road - easy access to main transport routes.<br />
+         5 minutes from Kurunegala Town - close to commercial and government facilities.<br />
+         10-minute drive to the Kurunegala Highway entrance & Railway Station via Udawalpola Circular Road.<br />
+         Connected to major bus routes: Colombo-Kurunegala (Bus No. 05 & 06) & Dambulla-Kurunegala.<br />
+       </p>
+       <p class="m-10 text-base sm:text-lg md:text-xl">
+         කුරුණෑගල නගර සීමාව තුළ යන්තම්පලාවේ පිහිටා ඇත - නාගරික පහසුව සහ ස්වභාවික සුන්දරත්වයේ මිශ්‍රණයකි.<br />
+         පුත්තලම මාර්ගයට මිනිත්තු 2 යි - ප්‍රධාන ප්‍රවාහන මාර්ග වෙත පහසුවෙන් ප්‍රවේශ විය හැකිය.<br />
+         කුරුණෑගල නගරයේ සිට මිනිත්තු 5 යි - වාණිජ හා රජයේ පහසුකම් වලට ආසන්නයි.<br />
+         උඩවල්පොල වටරවුම් මාර්ගය හරහා කුරුණැගල අධිවේගී මාර්ග පිවිසුමට සහ දුම්රිය ස්ථානයට මිනිත්තු 10 ක ධාවනයක්.<br />
+         ප්‍රධාන බස් මාර්ග සමඟ සම්බන්ධ වේ: කොළඹ-කුරුණෑගල (බස් අංක 05 සහ 06) සහ දඹුල්ල-කුරුණෑගල.<br />
+       </p>
+       <p class="mb-5 text-base sm:text-lg md:text-xl">
+         குருநாகல் நகர எல்லைக்குள் யந்தம்பலாவை, நகர்ப்புற வசதி மற்றும் இயற்கை அழகு கலவையாகும்.<br />
+         2 நிமிட நடை, புத்தளம் வீதிக்கு அருகில், முக்கிய போக்குவரத்து மார்க்கங்களுக்கு எளிதாக அணுகல்.<br />
+         குருநாகல் நகரத்திற்கு 5 நிமிடம், வணிக மற்றும் அரசாங்க வசதிகளுக்கு அருகில்.<br />
+         10 நிமிட பயணம், குருநாகல் நெடுஞ்சாலை நுழைவாயில் மற்றும் புகையிரத நிலையத்திற்கு.<br />
+         முக்கிய பஸ் வழித்தடங்களுடன் இணைந்துள்ளது: கொழும்பு-குருநாகல் (பஸ் 05 & 06), தம்புள்ளை-குருநாகல்.<br />
+       </p>
+     </div>
+   </div>
+ </div>
+
+ <!-- Card 2 -->
+ <div class="flex items-center justify-center">
+   <div class="m-5 flex w-full max-w-[80%] flex-col items-center justify-between overflow-hidden rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+     <div class="flex flex-col items-center text-center">
+       <h5 class="mt-1 text-xl font-bold">Investment & Development Potential</h5>
+       <br />
+       <p class="m-1 text-base sm:text-lg md:text-xl">
+         Versatile use: Suitable for a home, rental property, or commercial establishment.<br />
+         Growing urban area: Land value in Kurunegala is steadily increasing.<br />
+         Well-connected location, ideal for business and residential purposes.
+       </p>
+       <p class="m-10 text-base sm:text-lg md:text-xl">
+         බහුකාර්ය භාවිතය: නිවසක්, කුලී දේපලක් හෝ වාණිජ ආයතනයක් සඳහා සුදුසු වේ.<br />
+         වර්ධනය වන නාගරික ප්‍රදේශය: කුරුණෑගල ඉඩම් වටිනාකම ක්‍රමයෙන් වැඩි වෙමින් පවතී.<br />
+         හොඳින් සම්බන්ධිත ස්ථානයක්, ව්‍යාපාර සහ නේවාසික අරමුණු සඳහා වඩාත් සුදුසුය.
+       </p>
+
+       <p class="mb-5 text-base sm:text-lg md:text-xl">
+         பல்துறை பயன்பாடு: வீடு, வாடகை சொத்து அல்லது வணிக ஸ்தாபனத்திற்கு ஏற்றது.<br />
+         வளர்ந்து வரும் நகர்ப்புற பகுதி: குருநாகலில் நில மதிப்பு தொடர்ந்து அதிகரித்து வருகிறது.<br />
+         நன்கு இணைக்கப்பட்ட இடம், வணிக மற்றும் குடியிருப்பு நோக்கங்களுக்காக ஏற்றது.<br />
+       </p>
+     </div>
+   </div>
+ </div>
+
+ <!-- Card 3 -->
+ <div class="flex items-center justify-center">
+   <div class="m-5 flex w-full max-w-[80%] flex-col items-center justify-between overflow-hidden rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+     <div class="flex flex-col items-center text-center">
+       <h5 class="mt-1 text-xl font-bold">Nearby Amenities</h5>
+       <br />
+       <p class="m-1 text-base sm:text-lg md:text-xl">
+         5-minute drive to essential services: Government offices, Banks Kurunegala General Hospital, International Schools Supermarkets<br />
+         5 minutes from Lake Round, a popular spot for recreation and outdoor activities.
+       </p>
+       <p class="m-10 text-base sm:text-lg md:text-xl">
+         අත්‍යවශ්‍ය සේවාවන් සඳහා මිනිත්තු 5 ක ධාවනයකින්:රජයේ කාර්යාල, බැංකු, කුරුණෑගල මහ රෝහල, ජාත්‍යන්තර පාසල්සු, සුපිරි වෙළඳසැල්<br />
+         විනෝදය සහ එළිමහන් ක්‍රියාකාරකම් සඳහා ජනප්‍රිය ස්ථානයක් වන ලේක් රවුන්ඩ් සිට මිනිත්තු 5 ක දුර.
+       </p>
+       <p class="mb-5 text-base sm:text-lg md:text-xl">
+         அத்தியாவசிய சேவைகளுக்கு 5 நிமிட பயணம்:<br />
+         அரசு அலுவலகங்கள், வங்கிகள், குருணாகல் பொது வைத்தியசாலை, சர்வதேச பள்ளிகள்<br />
+         பல்பொருள் அங்காடிகள்<br />
+
+         ரவுண்ட் ஏரியிலிருந்து 5 நிமிடங்கள், பொழுதுபோக்கு மற்றும் வெளிப்புற நடவடிக்கைகளுக்கு பிரபலமான இடம்.
+       </p>
+     </div>
+   </div>
+ </div>
+
+ <!-- Card 4 -->
+ <div class="flex items-center justify-center">
+   <div class="m-5 flex w-full max-w-[80%] flex-col items-center justify-between overflow-hidden rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+     <div class="flex flex-col items-center text-center">
+       <h5 class="mt-1 text-xl font-bold">Land Features & Surroundings</h5>
+       <br />
+       <p class="m-1 text-base sm:text-lg md:text-xl">
+         Size: 14 perches of land, suitable for residential or commercial purposes.<br />
+         Scenic views of Kurunegala’s rock formations:<br />
+         Athugala (Elephant Rock), Ibbagala, Aandagala, and Yaddessagala<br />
+         Surrounded by greenery, offering a peaceful and serene environment. Flat terrain, making it easier for construction.
+       </p>
+       <p class="m-10 text-base sm:text-lg md:text-xl">
+         ප්‍රමාණය: පර්චස් 14 ක ඉඩමක්, නේවාසික හෝ වාණිජ අරමුණු සඳහා සුදුසුයි.<br />
+         කුරුණෑගල පාෂාණ සැකැස්මේ දර්ශනීය දසුන්:<br />
+         ඇතුගල (අලි පර්වතය), ඉබ්බාගල, ආඳගල සහ යද්දැස්සගල හරිත පැහැයෙන් වටවී, සාමකාමී සහ සන්සුන් පරිසරයක් ඇත.<br />
+         සමතලා භූමි ප්‍රදේශයක්, ඉදිකිරීම් සඳහාඳ සුදුසුයි.
+       </p>
+       <p class="mb-5 text-base sm:text-lg md:text-xl">
+         அளவு: 14 பேர்ச்சஸ் நிலம், குடியிருப்பு அல்லது வணிக நோக்கங்களுக்காக பொருத்தமானது.<br />
+         அத்துகல (யானைப் பாறை), இப்பாகல, ஆண்டகல, யதேசகல<br />
+         பசுமையால் சூழப்பட்டு, அமைதியான மற்றும் அமைதியான சூழலை வழங்குகிறது.<br />
+         தட்டையான நிலப்பரப்பு, கட்டுமானத்தை எளிதாக்குகிறது.
+       </p>
+     </div>
+   </div>
+ </div>
+
+ <!-- Card 5 -->
+ <div class="flex items-center justify-center">
+   <div class="m-5 flex w-full max-w-[80%] flex-col items-center justify-between overflow-hidden rounded-xl bg-[#E8FAEA] p-5 shadow-lg">
+     <div class="flex flex-col items-center text-center">
+       <h5 class="mt-1 text-xl font-bold">Secure Your Future <br />Contact Us Today!</h5>
+       <br />
+       <p class="m-1 text-base sm:text-lg md:text-xl">
+         A rare opportunity to own land in a prime location.<br />
+         Get in touch now for more details or a site visit!
+       </p>
+       <p class="m-10 text-base sm:text-lg md:text-xl">
+         ප්‍රමුඛ ස්ථානයක ඉඩමක් හිමිකර ගැනීමට දුර්ලභ අවස්ථාවක්.<br />
+         වැඩි විස්තර සඳහා හෝ සංචාරයක් සඳහා දැන්ම අප හා සම්බන්ධ වන්න!
+       </p>
+       <p class="mb-5 text-base sm:text-lg md:text-xl">
+         ஒரு முக்கிய இடத்தில் சொந்தமாக நிலம் வாங்கும் அரிய வாய்ப்பு.<br />
+         மேலும் விவரங்களுக்கு இப்போது தொடர்பு கொள்ளுங்கள்!
+       </p>
+
+       <a href="tel:+94776566868" class="just mt-35 inline-block rounded-md bg-green-600 px-10 py-4 text-center text-2xl font-bold text-white transition duration-300 hover:bg-green-500">Contact Us</a>
+     </div>
+   </div>
+ </div>
+</div>
+<!--More about Land Ends-->
+
+  
+<div id="footer">  
+<!--Footer STARTS Here-->
+<!-- Locaton Section -->
+<div class="container bg-[#009951] sm:min-w-screen">
+  <div class="ml-2 grid grid-cols-1 gap-20 sm:grid-cols-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+    <div id="location" class="flex flex-col items-center justify-center">
+      <h1 class="p-5 text-center text-[18px] font-bold text-white md:text-2xl">Location</h1>
+      <div class="mb-5 w-80 border-b-2 border-white sm:mb-0 sm:w-full md:w-full"></div>
+      <div class="m-5 "><iframe class="w-auto h-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.643408363338!2d80.3509419!3d7.5045604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae33a0bdfc51f21%3A0xb41e7fbefd730eb6!2sSundarapola%20Rd%2C%20Kurunegala!5e0!3m2!1sen!2slk!4v1743384538599!5m2!1sen!2slk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="flex flex-col items-center justify-items-start">
+      <h1 class="p-5 text-center text-[18px] font-bold text-white md:text-2xl">Contact Us</h1>
+      <div class="mb-5 w-80 border-b-2 border-white sm:mb-0 sm:w-full md:w-full"></div>
+      <br />
+      <p class="text-center text-white">+94 77 656 68 68</p>
+      <p class="text-center text-white pb-4">+94 70 656 68 68</p>
+    </div>
+  </div>
+</div>
+</div>
+
+ <!-- new script -->
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    // Script for dropdown menu
+    const toggleBtn = document.querySelector('.toggle-button');
+    const dropdownMenu = document.querySelector('.dropdown-menu');
+    toggleBtn.addEventListener('click', () => {
+      dropdownMenu.classList.toggle('hidden');
+    });
+
+    // Script for gallery
+    const carousel = document.querySelector(".carousel");
+    const firstImg = carousel.querySelectorAll("img")[0];
+    const arrowIcons = document.querySelectorAll(".wrapper i");
+
+    let isScrolling = false;
+    const firstImgWidth = firstImg.clientWidth + 8;
+
+    arrowIcons.forEach(icon => {  
+      icon.addEventListener('click', () => {
+        if (isScrolling) return;
+        isScrolling = true;
+        carousel.scrollLeft += icon.id === "left" ? -firstImgWidth : firstImgWidth;
+        
+        setTimeout(() => {
+          isScrolling = false;
+        }, 500);
+      });
+    });
+
+    // Script for 'Contact Us' Button
+    document.getElementById('contactUsBtn').addEventListener('click', function () {
+      if (isMobileDevice()) {
+        // Open the dialer on mobile
+        window.location.href = 'tel:+1234567890';
+      } else {
+        // Scroll to the footer on desktop or non-mobile
+        document.getElementById('footer').scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
+    });
+
+  });
+
+  // Function to detect if the device is mobile (or has phone dialer support)
+  function isMobileDevice() {
+    return /Mobi|Android|iPhone/i.test(navigator.userAgent);
+  }
+</script>
+
+</body>
+
+</html>
